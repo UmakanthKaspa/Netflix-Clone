@@ -1,0 +1,18 @@
+.failure_card {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  color: #ffffff;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+}
+
+.Try_again_button {
+  width: 77px;
+  height: 28px;
+  background: #ffffff;
+  border-radius: 4px;
+}

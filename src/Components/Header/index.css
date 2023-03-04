@@ -1,0 +1,86 @@
+.header {
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.5);
+}
+.Header_logo {
+  padding: 15px;
+}
+.home_options_list {
+  display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+.ImCross_option {
+  height: 25px;
+  width: 25px;
+  border-radius: 100%;
+  border-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Header_menu_MdMenuOpen {
+  background-color: transparent;
+  position: absolute;
+  right: 8%;
+  top: 15px;
+  color: #fff;
+  border-style: none;
+}
+
+.Header_menu_HiOutlineSearch {
+  background-color: transparent;
+  position: absolute;
+  right: 20%;
+  top: 15px;
+  color: #fff;
+  border-style: none;
+}
+.home_options_md_list {
+  display: none;
+}
+.Account_option,
+.Popular_option,
+.Home_option {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (min-width: 760px) {
+  .Header_menu_MdMenuOpen {
+    display: none;
+  }
+  .Header_menu_HiOutlineSearch {
+    right: 10%;
+  }
+  .home_options_md_list {
+    display: block;
+    list-style-type: none;
+    font-weight: bold;
+  }
+  .Home_option_md {
+    position: absolute;
+    left: 20%;
+    top: 15px;
+    color: #f8fafc;
+  }
+  .Popular_option_md:hover,
+  .Home_option_md:hover {
+    color: red;
+  }
+  .Popular_option_md {
+    position: absolute;
+    left: 25%;
+    top: 15px;
+    color: #f8fafc;
+  }
+  .profile_img {
+    position: absolute;
+    right: 5%;
+    top: 15px;
+    height: 30px;
+  }
+}

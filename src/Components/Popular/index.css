@@ -1,0 +1,31 @@
+.Popular_Container {
+  min-height: auto;
+}
+.popular_list {
+  list-style-type: none;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  justify-content: center;
+}
+.popular_img {
+  height: 100px;
+  width: 90px;
+  padding: 3px;
+  border-radius: 7px;
+}
+.popular_middle_card {
+  min-height: 82vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 760px) {
+  .popular_img {
+    height: 300px;
+    width: 290px;
+    padding: 3px;
+    border-radius: 7px;
+  }
+}

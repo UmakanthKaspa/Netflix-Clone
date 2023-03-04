@@ -1,0 +1,28 @@
+.home_heading {
+  font-size: 16px;
+  color: white;
+  padding-left: 35px;
+
+  font-weight: 600;
+
+  line-height: 21px;
+}
+.home_bottom_card_view {
+  width: 100vw;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 760px) {
+  .home_heading {
+    font-size: 30px;
+  }
+  .home_bottom_card_view {
+    width: 100vw;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

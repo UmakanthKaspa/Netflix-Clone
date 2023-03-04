@@ -1,0 +1,72 @@
+.login_container {
+  background-color: #131313;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login_logo {
+  position: absolute;
+  left: 8.89%;
+  right: 63.33%;
+  top: 5%;
+  bottom: 90.78%;
+  height: 27px;
+  width: 100px;
+}
+.login_form {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  justify-content: center;
+}
+.login_heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+}
+.login_label {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.login_input {
+  height: 40px;
+  width: 296px;
+  left: 0px;
+  top: 24px;
+  border-radius: 2px;
+  background: #333333;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+.login_button {
+  height: 40px;
+  width: 296px;
+  background: #e50914;
+  border-radius: 4px;
+  padding: 8px 20px 8px 20px;
+  margin-top: 25px;
+}
+@media screen and (min-width: 768px) {
+  .login_container {
+    background-image: url('https://res.cloudinary.com/djedlaeqd/image/upload/v1675828503/netfilx_1_mslavz.png');
+    background-size: cover;
+  }
+  .login_form {
+    background-color: #0c0b10;
+    padding: 25px;
+    opacity: 0.8;
+  }
+}
