@@ -27,6 +27,11 @@ It's my personal mini project created purely for learning and enjoyment. It prov
 - **CSS3** 🎨: The magic that brings our app to life with stunning styles and layouts.
 - **Git version control** 🗂️: Ensuring a smooth development process and easy collaboration.
 - **Visual Studio Code** 💻: The trusty code editor for crafting our movie app masterpiece.
+  
+Other tools and libraries used in the project include:
+
+- 🍪 **js-cookie**: A lightweight JavaScript library for handling browser cookies, used for managing user authentication.
+- ⚙️ **React Loader Spinner**: A React component that displays a loading spinner, used to enhance the user experience during data fetching.
 
 ## Getting Started 🚀
 
